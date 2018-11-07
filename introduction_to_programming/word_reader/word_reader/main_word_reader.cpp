@@ -8,7 +8,7 @@
 int main()
 {
 	WR::Data my_last_words;
-	WR::load_File(&my_last_words, "book.txt");
+	WR::load_File(&my_last_words, "words.txt");
 
 	printf("number of words read: %d\n", my_last_words.n_words);
 
