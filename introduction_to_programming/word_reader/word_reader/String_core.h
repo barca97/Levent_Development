@@ -18,6 +18,7 @@ namespace Str_Ops
 
 	int length(char *dest, const char *src)
 	{
+<<<<<<< HEAD
 		int length = dest[length];
 		int number_of_steps = length / 2;
 
@@ -29,5 +30,10 @@ namespace Str_Ops
 			if (src[left] != src[right]);
 		}
 		return 0;
+=======
+		int length = 0;
+
+		return length;
+>>>>>>> 412603af7b0ee383141592d8bb4779ea452a2018
 	}
 }
