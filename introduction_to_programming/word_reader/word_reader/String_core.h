@@ -18,7 +18,8 @@ namespace Str_Ops
 
 	int length(const char *src)
 	{
-		//????
-		return 0;
+		int length = 0;
+
+		return length;
 	}
 }
